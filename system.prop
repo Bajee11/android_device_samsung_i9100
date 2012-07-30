@@ -4,3 +4,16 @@
 
 rild.libpath=/system/lib/libsec-ril.so
 rild.libargs=-d /dev/ttyS0
+persist.sys.boot_volume=100
+
+# Galaxy S2 Hardware Info
+ro.device.gpu=ARM Mali-400 MP
+ro.device.rear_cam=8 MP
+ro.device.front_cam=2 MP
+ro.device.screen_res=480x800
+
+# RootBox Tweaks
+# Phone tweaks
+ro.telephony.call_ring.delay=0
+ro.lge.proximity.delay=15
+mot.proximity.delay=15
